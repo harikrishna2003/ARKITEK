@@ -1,5 +1,4 @@
-# 🏢 Office Management System (MERN Stack)
-
+# 🏢 ARKITEK
 A full-featured **Office Management System** built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js) with a sleek and responsive UI powered by **Syncfusion UI** and **Tailwind CSS**.
 
 ## 🚀 Tech Stack
