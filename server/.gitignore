@@ -1,0 +1,17 @@
+# Server Ignore
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# System
+.DS_Store
