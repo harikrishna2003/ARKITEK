@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Global or scoped */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555; 
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+
+* {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.input-style {
+  @apply bg-transparent border border-gray-500 rounded-md px-4 py-2 text-white font-mono text-base focus:outline-none focus:ring-2 focus:ring-orange-500;
+}
+.input-style-sm {
+  @apply bg-transparent border border-gray-600 rounded-md px-3 py-1 text-white font-mono text-sm;
+}
+

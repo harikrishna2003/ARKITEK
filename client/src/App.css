@@ -1,0 +1,86 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+/* .e-grid .e-headercelldiv, .e-grid .e-headercell {
+ 
+    background-color: #374151;
+    
+} */
+
+
+
+/* Increase font size in Syncfusion Grid dialog */
+.e-dialog .e-dlg-content label {
+    font-family: "Azeret Mono", monospace !important;
+    font-optical-sizing: auto !important;
+    font-size: large !important;
+    font-style:normal !important;
+    font-weight: 300 !important;
+
+
+  
+}
+.e-dialog .e-dlg-content input {
+    font-family: "Azeret Mono", monospace !important;
+    font-optical-sizing: auto !important;
+    font-size: small !important;
+    font-style:normal !important;
+    font-weight: 100 !important;
+   
+
+  
+}
+
+.e-dialog .e-dlg-header-content,
+.e-dialog .e-dlg-header {
+  font-size: 1.3rem !important;
+  font-weight: 300 !important;
+}
+
+
+/* Syncfusion inputs text color fix */
+.e-control.e-textbox,
+.e-control.e-input-group,
+.e-control.e-date-wrapper,
+.e-control.e-float-input {
+    font-family: "Azeret Mono", monospace !important;
+  color: white !important;
+}
+
+/* Specifically target inner input elements */
+.e-input-group input,
+.e-control.e-textbox input,
+.e-control.e-float-input input,
+.e-date-wrapper input {
+  color: white !important;
+  background-color: #1e2130 !important; /* or your theme */
+  caret-color: white !important;
+}
+
+/* Floating label text (placeholder) */
+.e-float-input .e-float-text,
+.e-float-input.e-control-wrapper input:focus ~ label.e-float-text,
+.e-float-input.e-control-wrapper input:valid ~ label.e-float-text {
+  color: #bbb !important;
+}
+
+/* Date icon color */
+.e-input-group-icon.e-date-icon {
+  color: white !important;
+}
+
+.header {
+  background-color: #55619d !important;
+}
